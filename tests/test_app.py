@@ -1,8 +1,8 @@
-import unittest
 import json
 import subprocess
 import sys
 import time
+import unittest
 from urllib.request import urlopen
 
 

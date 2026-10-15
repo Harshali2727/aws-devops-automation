@@ -1,5 +1,6 @@
-from http.server import BaseHTTPRequestHandler, HTTPServer
 import json
+from http.server import BaseHTTPRequestHandler, HTTPServer
+
 
 class AppHandler(BaseHTTPRequestHandler):
     def do_GET(self):
